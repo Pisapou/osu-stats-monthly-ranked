@@ -2,7 +2,6 @@
 Made by Pisapou, "It is trash, but it works."
 
 Program that use osu!'s apiv1 AND apiv2 to generate stats about maps ranked the last month.
-
 Some functions are not used because they seem useless, feel free to look anyway.
 """
 
