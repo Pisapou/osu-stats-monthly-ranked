@@ -10,7 +10,7 @@ All you need is `python` and the `requests` library *(for more information on th
 - Just go grab a **osu!api v1 key** [here](https://osu.ppy.sh/p/api/), and add it to the `line 25`. For more information about osu!api v1, check [the documentation](https://github.com/ppy/osu-api/wiki).
 - Grab your **Client ID** and you **Client Secret** by creating your own OAuth Client on your [profile setting](https://osu.ppy.sh/home/account/edit) in [osu.ppy](https://osu.ppy.sh/home), and add them to the `lines 75 and 76`. For more information about osu!api v2, check [the documentation](https://osu.ppy.sh/docs/index.html).
 
-You have done the most complicated! The program works now, you just have to try to understand it *(good luck to you, with a program so coded ;-;)*.
+You have done the most complicated! The program works now, you just have to try to understand it *(good luck to you, with a program so badly coded ;-;)*.
 
 ## How to use the programe proprely without understanding it
 
