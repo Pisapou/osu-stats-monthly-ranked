@@ -8,7 +8,7 @@ All you need is `python` and the `requests` library *(for more information on th
 *And also an osu! account, but if you don't have one, what are you doing here?*
 
 - Just go grab a **osu!api v1 key** [here](https://osu.ppy.sh/p/api/), and add it to the `line 25`. For more information about osu!api v1, check [the documentation](https://github.com/ppy/osu-api/wiki).
-- Grab your **Client ID** and you **Client Secret** by creating your own OAuth Client on your [profile setting](https://osu.ppy.sh/home/account/edit) in [osu.ppy](https://osu.ppy.sh/home), and add them to the `lines 76 and 77`. For more information about osu!api v2, check [the documentation](https://osu.ppy.sh/docs/index.html).
+- Grab your **Client ID** and you **Client Secret** by creating your own OAuth Client on your [profile setting](https://osu.ppy.sh/home/account/edit) in [osu.ppy](https://osu.ppy.sh/home), and add them to the `lines 75 and 76`. For more information about osu!api v2, check [the documentation](https://osu.ppy.sh/docs/index.html).
 
 You have done the most complicated! The program works now, you just have to try to understand it *(good luck to you, with a program so coded ;-;)*.
 
@@ -16,7 +16,7 @@ You have done the most complicated! The program works now, you just have to try 
 
 There are only a few things you need to understand in order to use the code correctly.
 
-- `ligne 62` : Probably the most important one, is the one that defines since when maps ranked should be counted *(and yes, this program should not only work for months, but also for a decade, however you will be responsible for the performance problems)*. For monthly use, simply put the date of the first of the month you are in the format `YYYY-MM-DD` *(UTC 0)*.
+- `line 61` : Probably the most important one, is the one that defines since when maps ranked should be counted *(and yes, this program should not only work for months, but also for a decade, however you will be responsible for the performance problems)*. For monthly use, simply put the date of the first of the month you are in the format `YYYY-MM-DD` *(UTC 0)*.
 **example:** we are the 29/11/2022, so I put in this variable '2022-11-01'.
 
 - `ls` and `ld` are the 2 main lists *(ls is a list including all sets rank this month in a dictionary, and ld is a list including all difficulties rank this month in a dictionary)*
